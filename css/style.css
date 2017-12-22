@@ -30,3 +30,43 @@
 .button-menu:hover {
   background-color: #ff3f40;
 }
+.features {
+  text-align:center;
+}
+.features_capture {
+  margin-top:100px;
+}
+.features_description {
+  font-size:16px;
+  width: 420px;
+  margin: 20px auto 0;
+}
+.features_description:after {
+  content: '';
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid red;
+  margin: 30px auto 0;
+}
+.features_menu {
+  margin-top:90px;
+}
+.features_menu-bottom {
+  font-family: OpenSans;
+  font-size: 22px;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.7;
+  font-weight:bold;
+  padding:10px;
+}
+.features_menu-bottom:hover {
+  color: #ff2d2d;
+}
+.features_blocks-block {
+  display: inline-block;
+  width: 23%;
+  height: 290px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
