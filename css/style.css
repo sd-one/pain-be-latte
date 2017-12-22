@@ -15,10 +15,11 @@
   opacity: 0.8;
   background-color: #000000;
 }
-.button-menu {
+.button-block-menu {
   margin:0 auto;
+  width: 50%;
 }
-.button1 {
+.button-menu {
   display: inline-block;
   font-family: OpenSans;
   font-weight: bold;
@@ -26,7 +27,6 @@
   color: #e0e0e0;
   text-decoration: none;
 }
-.button1:hover {
+.button-menu:hover {
   background-color: #ff3f40;
 }
-
