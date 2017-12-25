@@ -115,3 +115,58 @@
   height: 688px;
   background-color: #f6f2f2;
 }
+.Meet-our-team {
+  width: 341px;
+  height: 32px;
+  opacity: 0.8;
+  @apply --Text-Style-2;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipis-cing-elit-sed-d {
+  width: 446px;
+  height: 73px;
+  opacity: 0.7;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+.vzardini {
+  float:left;
+  width: 321px;
+  height: 458px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.mark_waugh {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 30px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.meet_description {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.social_buttons {
+  color: rgba(0, 0, 0, 0.8);
+  list-style: none;  
+  font-size: 18px;
+  margin-top: 12px;
+}
+.social_buttons li {
+ display: inline-block; 
+ margin-left: 12px;
+}
+.social_buttons li a {
+  cursor: pointer;
+}
