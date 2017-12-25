@@ -110,10 +110,11 @@
   opacity: 0.8;
   background-color: #ffffff;
 }
-.Rectangle-5 {
-  width: 1579px;
-  height: 688px;
-  background-color: #f6f2f2;
+.Rectangle-6 {
+  margin-top: 150px;
+  width: 1577px;
+  height: 512px;
+  background-color: #f3f0de;
 }
 .Meet-our-team {
   width: 341px;
@@ -143,7 +144,7 @@
   margin: 10px;
 }
 .mark_waugh {
-  margin-left: 12px;
+  margin-top: 12px;
   text-align: left;
   font-family: OpenSans;
   font-size: 30px;
@@ -151,7 +152,7 @@
   font-weight: 600;
 }
 .meet_description {
-  margin-left: 12px;
+  margin-top: 12px;
   text-align: left;
   font-family: OpenSans;
   font-size: 16px;
@@ -161,7 +162,7 @@
   color: rgba(0, 0, 0, 0.8);
   list-style: none;  
   font-size: 18px;
-  margin-top: 12px;
+  margin-top: 18px;
 }
 .social_buttons li {
  display: inline-block; 
@@ -169,4 +170,21 @@
 }
 .social_buttons li a {
   cursor: pointer;
+}
+.features_blocks-block_mark {
+  position:relative;
+  display: inline-block;
+  width: 13%;
+  height: 190px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.sokina-jue {
+  background-color: #9a9090;
+  color: #f9efef;
+  position:absolute;
+  bottom:0;
+  left: 14px;
+  font-family: OpenSans;
+  font-size: 18px;
 }
