@@ -31,43 +31,35 @@
   background-color: #ff3f40;
 }
 .banner {
-width: 80%;
-margin-left: 10%
+  width: 80%;
+  margin-left: 10%
 }
 .left_banner {
-width: 49%;
-/*display:inline-block;*/
-vertical-align: : top;
+  width: 43%;
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 5%;
+  margin-top: 25px;
 }
-/*.PROVIDE_FOR_YOU {
-
-
-  @apply --Text-Style-3; Бред какой то
+.provide_for {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-.Lorem_ipsum {
-  margin-left: 150px;
-  width: 509px;
-  height: 98px;
-  font-family: OpenSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.75;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
-}*/
+.lorem_ipsum {
+ font-size: 11px;
+ margin-bottom: 35px;
+ margin-top: 35px
+}
 .learn_more {
-  width: 50%;
-  height: 20%;
-  border-radius: 5px;
+  width: 45%;
+  height: 35px;
+  border-radius: 3px;
   background-color: white;
   border: solid 2px #ff0000;
   color:#ff0000;
 }
 .right_banner {
-  width: 50%;
+  width: 49%;
   display:inline-block;
 }
 .right_banner div {
@@ -82,9 +74,6 @@ vertical-align: : top;
 .right_banner h1 {
   font-size: 24px;
 }
-/*.right_banner p {
-  font-size: 16px;
-}*/
 .gear {
   background-image: url(../img/img1.png);
   margin:5%;
@@ -95,8 +84,7 @@ vertical-align: : top;
 }
 .diamond {
   background-image: url(../img/img2.png);
-
-
+  margin:5%;  
 }
 .car {
   background-image: url(../img/img4.png);
