@@ -31,18 +31,20 @@
   background-color: #ff3f40;
 }
 .banner {
-width: 100%;
+width: 80%;
+margin-left: 10%
 }
 .left_banner {
 width: 49%;
 display:inline-block;
+vertical-align: : top;
 }
-.PROVIDE_FOR_YOU {  
+/*.PROVIDE_FOR_YOU {  
   
   
-  /*@apply --Text-Style-3; Бред какой то*/
+  @apply --Text-Style-3; Бред какой то
 }
-/*.Lorem_ipsum {
+.Lorem_ipsum {
   margin-left: 150px;
   width: 509px;
   height: 98px;
@@ -57,11 +59,12 @@ display:inline-block;
   color: #000000;
 }*/
 .learn_more {
-  width: 227px;
-  height: 55px;
+  width: 50%;
+  height: 20%;
   border-radius: 5px;
-  background-color: #ff0000;
+  background-color: white;
   border: solid 2px #ff0000;
+  color:#ff0000;
 }
 .right_banner {
   width: 50%;
@@ -138,4 +141,74 @@ display:inline-block;
   height: 290px;
   background-color: #f3f0de;
   margin: 10px;
+}
+.Layer-30 {
+  width: 551px;
+  height: 356px;
+}
+.Vedio-Icon {
+  width: 70px;
+  height: 69px;
+  opacity: 0.8;
+  background-color: #ffffff;
+}
+.Rectangle-5 {
+  width: 1579px;
+  height: 688px;
+  background-color: #f6f2f2;
+}
+.Meet-our-team {
+  width: 341px;
+  height: 32px;
+  opacity: 0.8;
+  @apply --Text-Style-2;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipis-cing-elit-sed-d {
+  width: 446px;
+  height: 73px;
+  opacity: 0.7;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+.vzardini {
+  float:left;
+  width: 321px;
+  height: 458px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.mark_waugh {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 30px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.meet_description {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.social_buttons {
+  color: rgba(0, 0, 0, 0.8);
+  list-style: none;  
+  font-size: 18px;
+  margin-top: 12px;
+}
+.social_buttons li {
+ display: inline-block; 
+ margin-left: 12px;
+}
+.social_buttons li a {
+  cursor: pointer;
 }
