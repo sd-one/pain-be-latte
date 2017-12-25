@@ -182,7 +182,7 @@
       font-weight: bold;
 }
 .getintouch_decription {
-  width: 740px;
+  width: 60%;
   color:#333;
   margin: 50px 0px 50px 0px;
 }
@@ -190,7 +190,8 @@
   background: #333;
   display: inline-block;
   float: right;
-  height: 435px;
+  width: 35%;
+  height: 430px;
   color: #fff;
   margin: 0px 60px;
   font-size: 16px;
@@ -302,6 +303,12 @@
    left: 14px;
    font-family: OpenSans;
    font-size: 18px;
+  }
+.footer {
+  background: #000;
+  display: inline-block;
+  height: 100px;
+  width: 100%;
   }       
   .Design-tips-tricks-and-freebies-Delivered-weekly {
   width: 1099px;
