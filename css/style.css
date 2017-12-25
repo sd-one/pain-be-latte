@@ -152,11 +152,15 @@ vertical-align: : top;
   opacity: 0.8;
   background-color: #ffffff;
 }
-.Rectangle-5 {
-  width: 1579px;
-  height: 688px;
-  background-color: #f6f2f2;
-}
+.Rectangle-6 {
+   width: 1579px;       
+   margin-top: 250px;
+   height: 688px;       
+   width: 1577px;
+   background-color: #f6f2f2;       
+   height: 512px;
+   background-color: #f3f0de;
+  }     
 .Meet-our-team {
   width: 341px;
   height: 32px;
@@ -212,3 +216,20 @@ vertical-align: : top;
 .social_buttons li a {
   cursor: pointer;
 }
+ .features_blocks-block_mark {
+  position:relative;
+  display: inline-block;
+  width: 13%;
+  height: 190px;
+  background-color: #f3f0de;
+  margin: 10px;
+ }
+ .sokina-jue {
+   background-color: #9a9090;
+   color: #f9efef;
+   position:absolute;
+   bottom:0;
+   left: 14px;
+   font-family: OpenSans;
+   font-size: 18px;
+  }       
