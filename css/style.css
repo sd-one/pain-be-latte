@@ -191,7 +191,7 @@
   display: inline-block;
   float: right;
   width: 35%;
-  height: 43px;
+  height: 430px;
   color: #fff;
   margin: 0px 60px;
   font-size: 16px;
@@ -225,8 +225,9 @@
 .Rectangle-6 {
    width: 1579px;
    margin-top: 250px;
+   height: 688px;       
+   width: 100%;    
    height: 688px;
-   width: 1577px;
    background-color: #f6f2f2;
    height: 512px;
    background-color: #f3f0de;
@@ -305,5 +306,19 @@
   }
 .footer {
   background: #000;
-  height: 50px;
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  }       
+  .Design-tips-tricks-and-freebies-Delivered-weekly {
+  width: 1099px;
+  height: 43px;
+  opacity: 0.8;
+  font-family: OpenSans;
+  font-size: 42px;
+  line-height: 0.57;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
 }
+
