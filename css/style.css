@@ -27,11 +27,38 @@
   color: #e0e0e0;
   text-decoration: none;
 }
-.test {
-  padding: 500px
-}
 .button-menu:hover {
   background-color: #ff3f40;
+}
+.PROVIDE_FOR_YOU {
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 493px;
+  height: 87px;
+  opacity: 0.8;
+  @apply --Text-Style-3;
+}
+.Lorem_ipsum{
+  margin-left: 150px;
+  width: 509px;
+  height: 98px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.learn_more {
+  margin-left: 150px;
+  width: 227px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #ff0000;
+  border: solid 2px #ff0000;
 }
 .features {
   text-align:center;
