@@ -39,9 +39,9 @@ width: 49%;
 /*display:inline-block;*/
 vertical-align: : top;
 }
-/*.PROVIDE_FOR_YOU {  
-  
-  
+/*.PROVIDE_FOR_YOU {
+
+
   @apply --Text-Style-3; Бред какой то
 }
 .Lorem_ipsum {
@@ -95,8 +95,8 @@ vertical-align: : top;
 }
 .diamond {
   background-image: url(../img/img2.png);
-  
-  
+
+
 }
 .car {
   background-image: url(../img/img4.png);
@@ -142,6 +142,87 @@ vertical-align: : top;
   background-color: #f3f0de;
   margin: 10px;
 }
+.getintouch {
+  margin-bottom: 50px;
+}
+.getintouch_capture {
+  font-family: OpenSans;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+}
+.getintouch_form {
+  width: 740px;
+  display: inline-block;
+}
+.getintouch_form_input {
+  width: 293px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  color: #333;
+  padding: 10px 0px 10px 50px;
+}
+.getintouch_form_input-name {
+  margin-right: 50px;
+}
+.getintouch_form textarea {
+  width: 93%;
+  height: 250px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  color: #333;
+  padding: 30px 0px 10px 7%;
+  margin: 50px 0px 50px 0px;
+}
+.getintouch_form_submit {
+      background: rgb(255, 59, 59);
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      color: #fff;
+      padding: 10px 0px 10px 0px;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+.getintouch_decription {
+  width: 740px;
+  color:#333;
+  margin: 50px 0px 50px 0px;
+}
+.contact_info {
+  background: #333;
+  display: inline-block;
+  float: right;
+  height: 435px;
+  color: #fff;
+  margin: 0px 60px;
+  font-size: 16px;
+  padding: 40px;
+  width: 22%;
+}
+.contact_info h5 {
+  font-size:18px;
+  margin: 0px 0px 50px 0px;
+}
+.contact_info p {
+  margin: 0px 0px 50px 0px;
+}
+.contact_info a {
+  color:#fff;
+  text-decoration: none;
+  margin: 0px 0px 50px 0px;
+  display: inline-block;
+}
+
 .Layer-30 {
   width: 551px;
   height: 356px;
@@ -153,14 +234,14 @@ vertical-align: : top;
   background-color: #ffffff;
 }
 .Rectangle-6 {
-   width: 1579px;       
+   width: 1579px;
    margin-top: 250px;
-   height: 688px;       
+   height: 688px;
    width: 1577px;
-   background-color: #f6f2f2;       
+   background-color: #f6f2f2;
    height: 512px;
    background-color: #f3f0de;
-  }     
+  }
 .Meet-our-team {
   width: 341px;
   height: 32px;
@@ -205,12 +286,12 @@ vertical-align: : top;
 }
 .social_buttons {
   color: rgba(0, 0, 0, 0.8);
-  list-style: none;  
+  list-style: none;
   font-size: 18px;
   margin-top: 12px;
 }
 .social_buttons li {
- display: inline-block; 
+ display: inline-block;
  margin-left: 12px;
 }
 .social_buttons li a {
@@ -232,4 +313,4 @@ vertical-align: : top;
    left: 14px;
    font-family: OpenSans;
    font-size: 18px;
-  }       
+  }
