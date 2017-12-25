@@ -36,7 +36,7 @@
   width: 493px;
   height: 87px;
   opacity: 0.8;
-  @apply --Text-Style-3;
+  /*@apply --Text-Style-3; Бред какой то*/
 }
 .Lorem_ipsum{
   margin-left: 150px;
