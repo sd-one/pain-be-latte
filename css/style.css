@@ -17,7 +17,7 @@
 }
 .button-block-menu {
   margin:0 auto;
-  width: 50%;
+  width: 610px;
 }
 .button-menu {
   display: inline-block;
@@ -30,15 +30,19 @@
 .button-menu:hover {
   background-color: #ff3f40;
 }
-.PROVIDE_FOR_YOU {
-  margin-top: 150px;
-  margin-left: 150px;
-  width: 493px;
-  height: 87px;
-  opacity: 0.8;
+.banner {
+width: 100%;
+}
+.left_banner {
+width: 49%;
+display:inline-block;
+}
+.PROVIDE_FOR_YOU {  
+  
+  
   /*@apply --Text-Style-3; Бред какой то*/
 }
-.Lorem_ipsum{
+/*.Lorem_ipsum {
   margin-left: 150px;
   width: 509px;
   height: 98px;
@@ -51,14 +55,49 @@
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-}
+}*/
 .learn_more {
-  margin-left: 150px;
   width: 227px;
   height: 55px;
   border-radius: 5px;
   background-color: #ff0000;
   border: solid 2px #ff0000;
+}
+.right_banner {
+  width: 50%;
+  display:inline-block;
+}
+.right_banner div {
+  width: 38%;
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-top: 50px;
+  margin: 5%;
+  font-size: 11px;
+}
+.right_banner h1 {
+  font-size: 24px;
+}
+/*.right_banner p {
+  font-size: 16px;
+}*/
+.gear {
+  background-image: url(../img/img1.png);
+  margin:5%;
+}
+.pencil {
+  background-image: url(../img/img3.png);
+  margin:5%;
+}
+.diamond {
+  background-image: url(../img/img2.png);
+  
+  
+}
+.car {
+  background-image: url(../img/img4.png);
+  margin:5%;
 }
 .features {
   text-align:center;
