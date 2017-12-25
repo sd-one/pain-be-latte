@@ -321,4 +321,25 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
 }
-
+.getintouch_form_sokina {
+  width: 740px;
+  display: inline-block;
+}
+.getintouch_form_input_sokina {
+  width: 293px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  color: black;
+  padding: 10px 0px 10px 50px;
+}
+.subscribe {
+  width: 25%;
+  height: 55px;
+  border-radius: 5px;
+  background-color: red;
+  border: solid 2px #ff0000;
+  color:#fffafa;
+}
