@@ -30,15 +30,21 @@
 .button-menu:hover {
   background-color: #ff3f40;
 }
-.PROVIDE_FOR_YOU {
-  margin-top: 150px;
-  margin-left: 150px;
-  width: 493px;
-  height: 87px;
-  opacity: 0.8;
-  /*@apply --Text-Style-3; Бред какой то*/
+.banner {
+width: 80%;
+margin-left: 10%
 }
-.Lorem_ipsum{
+.left_banner {
+width: 49%;
+/*display:inline-block;*/
+vertical-align: : top;
+}
+/*.PROVIDE_FOR_YOU {
+
+
+  @apply --Text-Style-3; Бред какой то
+}
+.Lorem_ipsum {
   margin-left: 150px;
   width: 509px;
   height: 98px;
@@ -51,14 +57,50 @@
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-}
+}*/
 .learn_more {
-  margin-left: 150px;
-  width: 227px;
-  height: 55px;
+  width: 50%;
+  height: 20%;
   border-radius: 5px;
-  background-color: #ff0000;
+  background-color: white;
   border: solid 2px #ff0000;
+  color:#ff0000;
+}
+.right_banner {
+  width: 50%;
+  display:inline-block;
+}
+.right_banner div {
+  width: 38%;
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-top: 50px;
+  margin: 5%;
+  font-size: 11px;
+}
+.right_banner h1 {
+  font-size: 24px;
+}
+/*.right_banner p {
+  font-size: 16px;
+}*/
+.gear {
+  background-image: url(../img/img1.png);
+  margin:5%;
+}
+.pencil {
+  background-image: url(../img/img3.png);
+  margin:5%;
+}
+.diamond {
+  background-image: url(../img/img2.png);
+
+
+}
+.car {
+  background-image: url(../img/img4.png);
+  margin:5%;
 }
 .features {
   text-align:center;
@@ -180,3 +222,95 @@
   margin: 0px 0px 50px 0px;
   display: inline-block;
 }
+
+.Layer-30 {
+  width: 551px;
+  height: 356px;
+}
+.Vedio-Icon {
+  width: 70px;
+  height: 69px;
+  opacity: 0.8;
+  background-color: #ffffff;
+}
+.Rectangle-6 {
+   width: 1579px;
+   margin-top: 250px;
+   height: 688px;
+   width: 1577px;
+   background-color: #f6f2f2;
+   height: 512px;
+   background-color: #f3f0de;
+  }
+.Meet-our-team {
+  width: 341px;
+  height: 32px;
+  opacity: 0.8;
+  @apply --Text-Style-2;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipis-cing-elit-sed-d {
+  width: 446px;
+  height: 73px;
+  opacity: 0.7;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+.vzardini {
+  float:left;
+  width: 321px;
+  height: 458px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.mark_waugh {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 30px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.meet_description {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.social_buttons {
+  color: rgba(0, 0, 0, 0.8);
+  list-style: none;
+  font-size: 18px;
+  margin-top: 12px;
+}
+.social_buttons li {
+ display: inline-block;
+ margin-left: 12px;
+}
+.social_buttons li a {
+  cursor: pointer;
+}
+ .features_blocks-block_mark {
+  position:relative;
+  display: inline-block;
+  width: 13%;
+  height: 190px;
+  background-color: #f3f0de;
+  margin: 10px;
+ }
+ .sokina-jue {
+   background-color: #9a9090;
+   color: #f9efef;
+   position:absolute;
+   bottom:0;
+   left: 14px;
+   font-family: OpenSans;
+   font-size: 18px;
+  }
