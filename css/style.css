@@ -182,7 +182,7 @@
       font-weight: bold;
 }
 .getintouch_decription {
-  width: 60%;
+  width: 740px;
   color:#333;
   margin: 50px 0px 50px 0px;
 }
@@ -190,8 +190,7 @@
   background: #333;
   display: inline-block;
   float: right;
-  width: 35%;
-  height: 430px;
+  height: 435px;
   color: #fff;
   margin: 0px 60px;
   font-size: 16px;
@@ -238,8 +237,8 @@
   opacity: 0.8;
   @apply --Text-Style-2;
 }
-.Lorem-ipsum-dolor-sit-amet-consectetur-adipis-cing-elit-sed-d {
-  width: 446px;
+.lorem-ipsum_left {
+  width: 350px;
   height: 73px;
   opacity: 0.7;
   font-family: OpenSans;
@@ -251,6 +250,7 @@
   letter-spacing: normal;
   text-align: left;
   color: rgba(0, 0, 0, 0.7);
+  width: 350px;
 }
 .vzardini {
   float:left;
@@ -261,6 +261,7 @@
 }
 .mark_waugh {
   margin-left: 12px;
+  margin-bottom: 18px;
   text-align: left;
   font-family: OpenSans;
   font-size: 30px;
@@ -282,7 +283,7 @@
 }
 .social_buttons li {
  display: inline-block;
- margin-left: 12px;
+ margin-left: 26px;
 }
 .social_buttons li a {
   cursor: pointer;
@@ -300,18 +301,18 @@
    color: #f9efef;
    position:absolute;
    bottom:0;
-   left: 14px;
+   left: 30px;
    font-family: OpenSans;
    font-size: 18px;
   }
 .footer {
-  background: #000;
+  background: #343333;
   display: inline-block;
   height: 100px;
   width: 100%;
   }       
-  .Design-tips-tricks-and-freebies-Delivered-weekly {
-  margin-bottom: 100px;
+  .design_tips {
+  margin-bottom: 50px;
   width: 1099px;
   height: 43px;
   opacity: 0.8;
@@ -338,14 +339,33 @@
 }
 .subscribe {
   width: 25%;
-  height: 55px;
-  border-radius: 5px;
-  background-color: red;
   border: solid 2px #ff0000;
-  color:#fffafa;
+  background: rgb(255, 59, 59);
+  height: 50px;
   font-size: 18px;
+  border-radius: 10px;
   border: none;
+  color: #fff;
   padding: 10px 0px 10px 0px;
   text-transform: uppercase;
   font-weight: bold;
+}
+.footer_text {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  width: 700px;
+  font-size: 20px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 40px;
+  margin-left: 100px
+}
+.footer_href {
+  float: right;
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 20px;
 }
