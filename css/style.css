@@ -237,8 +237,9 @@
   opacity: 0.8;
   @apply --Text-Style-2;
 }
-.lorem_ipsum_left {
-  margin-top: 10px;
+
+.lorem-ipsum_left {
+  width: 350px;
   height: 73px;
   opacity: 0.7;
   font-family: OpenSans;
@@ -261,7 +262,7 @@
 }
 .mark_waugh {
   margin-left: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   text-align: left;
   font-family: OpenSans;
   font-size: 30px;
@@ -283,7 +284,7 @@
 }
 .social_buttons li {
  display: inline-block;
- margin-left: 12px;
+ margin-left: 26px;
 }
 .social_buttons li a {
   cursor: pointer;
@@ -301,12 +302,12 @@
    color: #f9efef;
    position:absolute;
    bottom:0;
-   left: 14px;
+   left: 30px;
    font-family: OpenSans;
    font-size: 18px;
   }       
-  .Design-tips-tricks-and-freebies-Delivered-weekly {
-  margin-bottom: 100px;
+  .design_tips {
+  margin-bottom: 50px;
   width: 1099px;
   height: 43px;
   opacity: 0.8;
@@ -333,13 +334,13 @@
 }
 .subscribe {
   width: 25%;
-  height: 55px;
-  border-radius: 5px;
-  background-color: red;
   border: solid 2px #ff0000;
-  color:#fffafa;
+  background: rgb(255, 59, 59);
+  height: 50px;
   font-size: 18px;
+  border-radius: 10px;
   border: none;
+  color: #fff;
   padding: 10px 0px 10px 0px;
   text-transform: uppercase;
   font-weight: bold;
