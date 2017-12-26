@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+    margin:0;
+    padding:0;
+}
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.header-menu {
+  width: 100%;
+  height: 90px;
+  opacity: 0.8;
+  background-color: #000000;
+}
+.button-block-menu {
+  margin:0 auto;
+  width: 610px;
+}
+.button-menu {
+  display: inline-block;
+  font-family: OpenSans;
+  font-weight: bold;
+  padding: 36px;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+.button-menu:hover {
+  background-color: #ff3f40;
+}
+.banner {
+  width: 80%;
+  margin-left: 10%
+}
+.left_banner {
+  width: 43%;
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 5%;
+  margin-top: 25px;
+}
+.provide_for {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.lorem_ipsum {
+ font-size: 11px;
+ margin-bottom: 35px;
+ margin-top: 35px
+}
+.learn_more {
+  width: 45%;
+  height: 35px;
+  border-radius: 3px;
+  background-color: white;
+  border: solid 2px #ff0000;
+  color:#ff0000;
+}
+.right_banner {
+  width: 49%;
+  display:inline-block;
+}
+.right_banner div {
+  width: 38%;
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-top: 50px;
+  margin: 5%;
+  font-size: 11px;
+}
+.right_banner h1 {
+  font-size: 24px;
+}
+.gear {
+  background-image: url(../img/img1.png);
+  margin:5%;
+}
+.pencil {
+  background-image: url(../img/img3.png);
+  margin:5%;
+}
+.diamond {
+  background-image: url(../img/img2.png);
+  margin:5%;  
+}
+.car {
+  background-image: url(../img/img4.png);
+  margin:5%;
+}
+.features {
+  text-align:center;
+}
+.features_capture {
+  margin-top:100px;
+}
+.features_description {
+  font-size:16px;
+  width: 420px;
+  margin: 20px auto 0;
+}
+.features_description:after {
+  content: '';
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid red;
+  margin: 30px auto 0;
+}
+.features_menu {
+  margin-top:90px;
+}
+.features_menu-bottom {
+  font-family: OpenSans;
+  font-size: 22px;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.7;
+  font-weight:bold;
+  padding:10px;
+}
+.features_menu-bottom:hover {
+  color: #ff2d2d;
+}
+.features_blocks-block {
+  display: inline-block;
+  width: 23%;
+  height: 290px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.getintouch {
+  margin-bottom: 50px;
+}
+.getintouch_capture {
+  font-family: OpenSans;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+}
+.getintouch_form {
+  width: 740px;
+  display: inline-block;
+}
+.getintouch_form_input {
+  width: 293px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  color: #333;
+  padding: 10px 0px 10px 50px;
+}
+.getintouch_form_input-name {
+  margin-right: 50px;
+}
+.getintouch_form textarea {
+  width: 93%;
+  height: 250px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  color: #333;
+  padding: 30px 0px 10px 7%;
+  margin: 50px 0px 50px 0px;
+}
+.getintouch_form_submit {
+      background: rgb(255, 59, 59);
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      color: #fff;
+      padding: 10px 0px 10px 0px;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+.getintouch_decription {
+  width: 60%;
+  color:#333;
+  margin: 50px 0px 50px 0px;
+}
+.contact_info {
+  background: #333;
+  display: inline-block;
+  float: right;
+  width: 35%;
+  height: 430px;
+  color: #fff;
+  margin: 0px 60px;
+  font-size: 16px;
+  padding: 40px;
+  width: 22%;
+}
+.contact_info h5 {
+  font-size:18px;
+  margin: 0px 0px 50px 0px;
+}
+.contact_info p {
+  margin: 0px 0px 50px 0px;
+}
+.contact_info a {
+  color:#fff;
+  text-decoration: none;
+  margin: 0px 0px 50px 0px;
+  display: inline-block;
+}
+
+.Layer-30 {
+  width: 551px;
+  height: 356px;
+}
+.Vedio-Icon {
+  width: 70px;
+  height: 69px;
+  opacity: 0.8;
+  background-color: #ffffff;
+}
+.Rectangle-6 {
+   width: 1579px;
+   margin-top: 250px;
+   height: 688px;       
+   width: 100%;    
+   height: 688px;
+   background-color: #f6f2f2;
+   height: 512px;
+   background-color: #f3f0de;
+  }
+.Meet-our-team {
+  width: 341px;
+  height: 32px;
+  opacity: 0.8;
+  @apply --Text-Style-2;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipis-cing-elit-sed-d {
+  width: 446px;
+  height: 73px;
+  opacity: 0.7;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+.vzardini {
+  float:left;
+  width: 321px;
+  height: 458px;
+  background-color: #f3f0de;
+  margin: 10px;
+}
+.mark_waugh {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 30px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.meet_description {
+  margin-left: 12px;
+  text-align: left;
+  font-family: OpenSans;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.social_buttons {
+  color: rgba(0, 0, 0, 0.8);
+  list-style: none;
+  font-size: 18px;
+  margin-top: 12px;
+}
+.social_buttons li {
+ display: inline-block;
+ margin-left: 12px;
+}
+.social_buttons li a {
+  cursor: pointer;
+}
+ .features_blocks-block_mark {
+  position:relative;
+  display: inline-block;
+  width: 13%;
+  height: 190px;
+  background-color: #f3f0de;
+  margin: 10px;
+ }
+ .sokina-jue {
+   background-color: #9a9090;
+   color: #f9efef;
+   position:absolute;
+   bottom:0;
+   left: 14px;
+   font-family: OpenSans;
+   font-size: 18px;
+  }
+.footer {
+  background: #000;
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  }       
+  .Design-tips-tricks-and-freebies-Delivered-weekly {
+  width: 1099px;
+  height: 43px;
+  opacity: 0.8;
+  font-family: OpenSans;
+  font-size: 42px;
+  line-height: 0.57;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.getintouch_form_sokina {
+  width: 740px;
+  display: inline-block;
+}
+.getintouch_form_input_sokina {
+  width: 293px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  color: black;
+  padding: 10px 0px 10px 50px;
+}
+.subscribe {
+  width: 25%;
+  height: 55px;
+  border-radius: 5px;
+  background-color: red;
+  border: solid 2px #ff0000;
+  color:#fffafa;
+}
