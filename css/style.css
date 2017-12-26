@@ -311,6 +311,7 @@
   width: 100%;
   }       
   .Design-tips-tricks-and-freebies-Delivered-weekly {
+  margin-bottom: 100px;
   width: 1099px;
   height: 43px;
   opacity: 0.8;
@@ -319,7 +320,7 @@
   line-height: 0.57;
   letter-spacing: 1.1px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .getintouch_form_sokina {
   width: 740px;
@@ -342,4 +343,9 @@
   background-color: red;
   border: solid 2px #ff0000;
   color:#fffafa;
+  font-size: 18px;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
