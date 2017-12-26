@@ -305,7 +305,7 @@
    font-size: 18px;
   }
 .footer {
-  background: #000;
+  background: #343333;
   display: inline-block;
   height: 100px;
   width: 100%;
@@ -342,4 +342,23 @@
   background-color: red;
   border: solid 2px #ff0000;
   color:#fffafa;
+}
+.footer_text {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  width: 700px;
+  font-size: 20px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 40px;
+  margin-left: 100px
+}
+.footer_href {
+  float: right;
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 20px;
 }
